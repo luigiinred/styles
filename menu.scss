@@ -1,0 +1,17 @@
+
+ ul{
+   margin:0;
+   padding:0;
+   li{ 
+     list-style: none;
+     padding:$padding-md;
+     padding-left:$padding-lg;
+     &:hover{
+       cursor:pointer;
+       background-color: rgba(0,0,0,.04);
+     }
+     &.active, &.active:hover{
+        background-color: rgba(0,0,0,.08);
+     }
+   }
+ }

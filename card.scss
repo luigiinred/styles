@@ -1,0 +1,23 @@
+.page{
+    padding:$padding-lg;
+    background-color: $background-shade;
+    flex-direction: row;
+    overflow-y: scroll;
+    flex-grow: 1;
+}
+    
+
+.card{
+    flex-direction: column;
+    min-height: min-content;
+    display: flex;
+    background-color: $background;
+    border:$border;
+    border-radius: 6px;
+    margin: none;
+    padding: $padding-md;
+    max-width: $max-width;
+    &.no-padding{
+        padding:0;
+    }
+}

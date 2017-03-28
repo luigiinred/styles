@@ -1,0 +1,9 @@
+input, textarea{
+    flex-grow: 1;
+    border: none;
+    margin:$margin-md;
+    font-size:$font-size-md;
+    &:focus{
+        outline: none;
+    }
+}
